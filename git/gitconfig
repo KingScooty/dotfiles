@@ -159,10 +159,6 @@
 	# Make `git push` push relevant annotated tags when pushing branches out.
 	followTags = true
 
-# use a separate file for username / github token / etc
-[include]
-    path = ~/.gitconfig.local
-
 # URL shorthands
 
 [url "git@github.com:"]
@@ -184,3 +180,7 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+# use a separate file for username / github token / etc
+[include]
+    path = ~/.gitconfig.local
