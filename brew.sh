@@ -20,6 +20,7 @@ brew install findutils --with-default-names
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
 brew install gnu-which --with-default-names
+brew install gpg
 
 # Install Bash 4.
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
