@@ -34,12 +34,6 @@ brew tap homebrew/versions
 brew install bash-completion2
 brew install gawk
 
-# Add bash4 to /etc/shell
-if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
-  echo '/usr/local/bin/bash' >> /etc/shells;
-  chsh -s /usr/local/bin/bash;
-fi;
-
 brew install python
 pip install --upgrade pip
 pip install Pygments
@@ -78,3 +72,9 @@ brew install webkit2png #screenshot webpage
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Add bash4 to /etc/shell
+if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
+  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
+  chsh -s /usr/local/bin/bash;
+fi;
