@@ -184,3 +184,5 @@
 # use a separate file for username / github token / etc
 [include]
     path = ~/.gitconfig.local
+[credential]
+	helper = osxkeychain
