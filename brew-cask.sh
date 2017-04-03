@@ -14,6 +14,7 @@ brew cask install flux #screen tempterature
 brew cask install atom
 brew cask install imagealpha
 brew cask install imageoptim
+brew cask install gitup
 
 # fun
 # brew cask install limechat
