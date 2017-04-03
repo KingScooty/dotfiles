@@ -6,7 +6,7 @@
 brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade --all
+brew upgrade #--all
 
 # Install GNU core utilities (those that come with OS X are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
@@ -42,7 +42,7 @@ pip install Pygments
 brew install wget --with-iri
 
 # Install more recent versions of some OS X tools.
-brew install vim --override-system-vi
+brew install vim --with-override-system-vi
 brew install homebrew/dupes/grep --with-default-names
 brew install homebrew/dupes/openssh --with-libressl
 brew install homebrew/dupes/screen
@@ -64,6 +64,9 @@ brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
 
+# Futuristic package manager from Facebook
+brew install yarn
+
 # brew install pv
 brew install speedtest_cli
 brew install ssh-copy-id #installs public key on remote via ssh
@@ -78,3 +81,8 @@ if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
   echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
   chsh -s /usr/local/bin/bash;
 fi;
+
+# Bash completion notes made during brew install?
+# if [ -f $(brew --prefix)/share/bash-completion/bash_completion ]; then
+#   . $(brew --prefix)/share/bash-completion/bash_completion
+# fi
