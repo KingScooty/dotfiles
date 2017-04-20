@@ -66,6 +66,7 @@ brew install imagemagick --with-webp
 
 # Futuristic package manager from Facebook
 brew install yarn
+brwe install flow
 
 # brew install pv
 brew install speedtest_cli
