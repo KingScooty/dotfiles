@@ -100,8 +100,8 @@
 	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
 	precomposeunicode = false
 
-	# Set the tab indent length to 4
-	pager = less -x4
+	# Set the tab indent length to the equivalent of 4 spaces when diffing
+	pager = less -x1,5
 
 [color]
 
