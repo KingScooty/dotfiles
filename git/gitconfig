@@ -100,6 +100,9 @@
 	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
 	precomposeunicode = false
 
+	# Set the tab indent length to 4
+	pager=less -x4
+
 [color]
 
 	# Use colors in Git commands that are capable of colored output when
