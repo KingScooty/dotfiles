@@ -5,14 +5,14 @@ cd "$(dirname "$BASH_SOURCE")" \
 
 declare -a FILES_TO_SYMLINK=(
 
-    "shell/aliases"
-    "shell/bash_profile"
-    "shell/bash_prompt"
-    "shell/bashrc"
-    "shell/curlrc"
-    "shell/exports"
-    "shell/functions"
-    "shell/inputrc"
+    "shell/bash/aliases"
+    "shell/bash/bash_profile"
+    "shell/bash/bash_prompt"
+    "shell/bash/bashrc"
+    "shell/bash/curlrc"
+    "shell/bash/exports"
+    "shell/bash/functions"
+    "shell/bash/inputrc"
 
     "git/gitconfig"
     "git/gitignore"
