@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # daily
+brew cask install hyper #sexy terminal
 brew cask install spectacle #window resizing
 # brew cask install dropbox
 # brew cask install gyazo #screenshot library
