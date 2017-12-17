@@ -23,6 +23,7 @@ main() {
 
     echo "what the fuck is in this @?!?!"
     echo $@
+    echo $*
     echo "It should be set to y on CI"
 
     skip_questions "$@" \
