@@ -14,13 +14,14 @@ main() {
 
     find \
         ../test \
-        ../src/os \
+        # ../src/os \
         ../src/shell \
         -type f \
-        ! -path '../src/shell/curlrc' \
-        ! -path '../src/shell/inputrc' \
-        ! -path '../src/os/preferences/macos/*.applescript' \
-        ! -path '../src/os/preferences/macos/*.terminal' \
+        ! -path '../src/shell/bash/curlrc' \
+        ! -path '../src/shell/bash/inputrc' \
+        # ! -path '../src/os/preferences/macos/*.applescript' \
+        # ! -path '../src/os/preferences/macos/*.terminal' \
+        ! -path '../src/shell/hyper'
         -exec shellcheck \
                 -e SC1090 \
                 -e SC1091 \
