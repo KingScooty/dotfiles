@@ -1,3 +1,4 @@
+declare skipQuestions=false
 
 main() {
 
