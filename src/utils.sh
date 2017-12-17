@@ -266,7 +266,7 @@ set_trap() {
 }
 
 skip_questions() {
-
+    echo "what is it?? $1"
      while :; do
         case $1 in
             -y|--yes) return 0;;
