@@ -36,6 +36,10 @@ brew install wget --with-iri
 
 # Install tools for shell syntax highlighting
 brew install python
+
+brew install python3
+brew postinstall python3
+
 pip install --upgrade pip
 pip install Pygments
 
