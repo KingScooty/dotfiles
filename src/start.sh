@@ -1,3 +1,5 @@
+#!/bin/bash
+
 declare skipQuestions=false
 
 main() {
