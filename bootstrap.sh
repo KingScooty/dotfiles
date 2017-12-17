@@ -9,10 +9,17 @@ declare -a FILES_TO_SYMLINK=(
     "shell/bash/bash_profile"
     "shell/bash/bash_prompt"
     "shell/bash/bashrc"
-    "shell/bash/curlrc"
+    # "shell/bash/curlrc"
     "shell/bash/exports"
     "shell/bash/functions"
     "shell/bash/inputrc"
+
+    "shell/hyper/hyper.js"
+
+    "shell/zsh/zpreztorc"
+    "shell/zsh/zprofile"
+    "shell/zsh/zshenv"
+    "shell/zsh/zshrc"
 
     "git/gitconfig"
     "git/gitignore"
@@ -59,7 +66,7 @@ main() {
 
         if [ ! -e "$targetFile" ]; then
             execute "ln -fs $sourceFile $targetFile" "$targetFile → $sourceFile"
-        elif [ "$(readlink "$targetFile")" == "$sourceFile" ]; then
+        elif [ "$(readlink "$targetFile")" = "$sourceFile" ]; then
             print_success "$targetFile → $sourceFile"
         else
             ask_for_confirmation "'$targetFile' already exists, do you want to overwrite it?"
