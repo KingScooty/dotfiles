@@ -50,7 +50,7 @@ declare -a FILES_TO_SYMLINK=(
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-main() {
+create_symlinks() {
 
     local i=""
     local sourceFile=""
