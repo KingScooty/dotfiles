@@ -7,8 +7,8 @@ before_install:
   - ./test/customise_environment.sh
 
 install:
-#  - ./src/os/setup.sh -y
-  - source ./src/bootstrap.sh -y
+ # - ./src/os/setup.sh -y
+  - ./src/start.sh -y
 
 language: generic
 
