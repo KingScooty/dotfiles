@@ -14,7 +14,7 @@ main() {
     if [ -x "utils.sh" ]; then
         . "utils.sh" || exit 1
     else
-        echo "ERROR WITH UTILS"
+        echo "Error with utils. Do they exist/executable?"
         exit 1
     fi
 
