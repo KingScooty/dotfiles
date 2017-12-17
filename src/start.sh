@@ -28,10 +28,10 @@ main() {
 
 
     # Install deps
-    ./brew.sh
-    ./brew-cash.sh
-    ./npm.sh
-    ./zsh.sh
+    # ./brew.sh
+    # ./brew-cash.sh
+    # ./npm.sh
+    # ./zsh.sh
 
     ./bootstrap.sh "$@"
 
