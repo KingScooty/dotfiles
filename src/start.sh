@@ -33,7 +33,7 @@ main() {
     ./npm.sh
     ./zsh.sh
 
-    ./bootstrap.sh
+    ./bootstrap.sh "$@"
 
 }
 

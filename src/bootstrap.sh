@@ -55,6 +55,12 @@ main() {
     local i=""
     local sourceFile=""
     local targetFile=""
+    local skipQuestions=false
+
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    skip_questions "$@" \
+        && skipQuestions=true
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
