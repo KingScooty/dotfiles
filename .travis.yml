@@ -4,8 +4,7 @@
 # https://docs.travis-ci.com
 
 before_install:
-  - ./test/parent.sh -wut -n -y -itfuckingworks
-  # - ./test/customise_environment.sh
+  - ./test/customise_environment.sh
 
 install:
   - ./src/start.sh -y
