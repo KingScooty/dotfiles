@@ -4,10 +4,11 @@
 # https://docs.travis-ci.com
 
 before_install:
-  - ./test/customize_environment.sh
+  - ./test/customise_environment.sh
 
 install:
-  - ./src/os/setup.sh -y
+#  - ./src/os/setup.sh -y
+  - source ./src/bootstrap.sh -y
 
 language: generic
 
