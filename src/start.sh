@@ -33,3 +33,7 @@ main() {
     ./zsh.sh
 
     ./bootstrap.sh
+
+}
+
+main
