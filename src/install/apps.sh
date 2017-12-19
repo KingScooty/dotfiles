@@ -24,7 +24,6 @@ brew cask install kaleidoscope
 # browsers
 brew cask install firefox
 brew cask install google-chrome
-brew cask install google-chrome-canary
 
 # less often
 # brew cask install licecap

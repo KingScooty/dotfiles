@@ -29,6 +29,7 @@ brew install gnu-which --with-default-names
 # running `chsh`. (The step below takes care of this)
 brew install bash
 brew install bash-completion2
+brew install zsh
 brew install gawk
 
 # Install `wget` with IRI support.

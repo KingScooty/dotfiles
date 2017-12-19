@@ -10,6 +10,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 ./homebrew.sh
 ./packages.sh
 ./apps.sh
+./zsh_prezto.sh
 # ./../nvm.sh
 
 # ./browsers.sh
