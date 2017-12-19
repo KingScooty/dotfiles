@@ -25,6 +25,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 # ./../vim.sh
 # ./web_font_tools.sh
 
+
 print_in_purple "\n   Cleanup\n\n"
 brew_cleanup
 # ./cleanup.sh
