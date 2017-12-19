@@ -10,7 +10,6 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 ./homebrew.sh
 ./packages.sh
 ./apps.sh
-./zsh_prezto.sh
 # ./../nvm.sh
 
 # ./browsers.sh
@@ -30,3 +29,5 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 print_in_purple "\n   Cleanup\n\n"
 brew_cleanup
 # ./cleanup.sh
+
+./zsh_prezto.sh

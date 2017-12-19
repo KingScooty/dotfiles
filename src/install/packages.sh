@@ -37,12 +37,13 @@ brew install wget --with-iri
 
 # Install tools for shell syntax highlighting
 brew install python
+brew postinstall python
 
-brew install python3
-brew postinstall python3
+# brew install python3
+# brew postinstall python3
 
-pip install --upgrade pip
-pip install Pygments
+# pip3 install --upgrade pip
+pip2 install Pygments
 
 # Install more recent versions of some OS X tools.
 brew install vim --with-override-system-vi
