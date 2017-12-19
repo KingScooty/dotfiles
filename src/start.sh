@@ -23,11 +23,6 @@ main() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    echo "what the fuck is in this @?!?!"
-    echo $@
-    echo $*
-    echo "It should be set to y on CI"
-
     skip_questions "$@" \
         && skipQuestions=true
 
@@ -39,7 +34,7 @@ main() {
     # ./brew-cash.sh
     # ./npm.sh
     # ./zsh.sh
-
+    ./install/_main.sh
     ./bootstrap.sh "$@"
 
 }
