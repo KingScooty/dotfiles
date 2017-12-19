@@ -6,7 +6,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-./xcode_cmdlt.sh
+# ./xcode_cmdlt.sh
 ./homebrew.sh
 ./packages.sh
 ./apps.sh
