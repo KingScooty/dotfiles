@@ -2,14 +2,15 @@
 
 cd "$(dirname "${BASH_SOURCE[0]}")" \
     && . "../utils.sh" \
-    && . "./homebrew_utils.sh"
+    && . "./homebrew/homebrew_utils.sh"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-./xcode_cmdlt.sh
-./homebrew.sh
-./packages.sh
-./apps.sh
+./xcode/xcode_cmdlt.sh
+./homebrew/homebrew.sh
+./homebrew/packages.sh
+./homebrew/apps.sh
+./antibody/antibody_install.sh
 # ./../nvm.sh
 
 # ./browsers.sh
@@ -30,4 +31,4 @@ print_in_purple "\n   Cleanup\n\n"
 brew_cleanup
 # ./cleanup.sh
 
-./zsh_prezto.sh
+./prezto/zsh_prezto.sh
