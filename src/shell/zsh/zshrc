@@ -13,5 +13,8 @@ fi
 # Wire up z for fast cd navigation
 . /usr/local/etc/profile.d/z.sh
 
+# Safe rm (https://www.npmjs.com/package/trash-cli)
+alias rm=trash
+
 # Customize to your needs...
 source ~/.zsh_plugins.sh

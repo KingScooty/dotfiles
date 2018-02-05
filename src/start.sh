@@ -35,7 +35,7 @@ main() {
     # Install deps
     # ./brew.sh
     # ./brew-cash.sh
-    # ./npm.sh
+    # ./install/npm/npm.sh
     # ./zsh.sh
     ./install/_main.sh
     ./bootstrap.sh "$@"

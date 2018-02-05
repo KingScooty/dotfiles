@@ -11,6 +11,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 ./homebrew/packages.sh
 ./homebrew/apps.sh
 ./antibody/antibody_install.sh
+./npm/npm.sh
 # ./../nvm.sh
 
 # ./browsers.sh
